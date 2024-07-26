@@ -1,0 +1,128 @@
+body{
+    scroll-behavior: smooth;
+}
+
+.navbar-section {
+    opacity: .5;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
+    transition: all .3s ease-in-out;
+    color: #ffff;  
+}
+
+.navbar-section-black{
+    background: rgba(20, 150, 150, .90);
+    color: #ffff;
+    transition: all .5s ease-in-out;
+}
+
+.navbar-section-black a{
+    color: #ffff;
+}
+
+.navbar-section ul li a{
+    color: #ffff;
+}
+
+.banner-section{
+    position: relative;
+}
+
+.banner-section img{
+   max-height: 55rem;
+}
+
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%,-50%);
+    width: 40rem;
+    text-align: center;
+}
+
+.banner-text h1{
+    font-size: 4rem;
+    line-height: 5.3rem;
+    font-weight: 600;
+}
+
+.banner-text p{
+    font-size: 1.5rem;
+}
+
+.contact-section{
+    background: url(./img/call-to-action-bg-2.jpg) 100% 0 no-repeat fixed ;
+    background-position: center;
+
+    color: white;
+    height: 30rem;
+   
+    object-fit: cover;
+ 
+}
+
+.banner-img{
+    object-fit: cover;
+}
+
+.icon{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 8px;
+}
+
+.agency-info{
+    display: flex;
+    align-items: flex-start;
+}
+
+.service-card:hover{
+    box-shadow: 0px 2px 38px -1px rgba(0,0,0,0.6);
+    color: #ffff;
+    background-color: rgba(117, 117, 117, 0.87);
+    transition: all .3s ease-in-out;
+}
+
+.service-icon{
+    padding-bottom: 1.5rem;
+}
+
+.carousel-item{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.owner-blog{
+    background: rgb(40, 171, 227);
+    color: white;
+    font-size: 1.3rem;
+}
+
+.owner-info{
+    margin-top: -4.7rem;
+}
+
+.owner-info img{
+    width: 10rem;
+}
+
+.f-heading{
+    font-size: 3rem;
+}
+
+.offer-section img{
+    margin-right: 5rem;
+}
+
+.footer-section ul li{
+    list-style: none;
+}
+
+.footer-section ul li a{
+    text-decoration: none;
+}
+
+
